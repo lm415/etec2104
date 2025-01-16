@@ -15,4 +15,4 @@ class App:
         t = mako.template.Template(filename=f"{PYPATH}/../html/test.html")
         return t.render(foobar=42)
 app = App()
-cherrypy.quickstart(app)
+cherrypy.quickstart(app) 
